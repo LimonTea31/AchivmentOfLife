@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonWithBorder">
+        <item name="android:background">@drawable/drawablebutton</item>
+        <item name="android:textColor">@color/black</item>
+        <!-- Другие атрибуты стиля -->
+    </style>
+
+
+</resources>

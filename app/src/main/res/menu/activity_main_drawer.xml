@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_event_available_24"
+            android:title="Привычки" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_calendar_today_24"
+            android:title="Календарь" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_book_24"
+            android:title="Теория" />
+        <item
+            android:id="@+id/nav_achivment"
+            android:icon="@drawable/baseline_military_tech_24"
+            android:title="Достяжения" />
+    </group>
+    <item android:title="Другое">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/baseline_question_mark_24"
+                android:title="Помощь" />
+            <item
+            android:id="@+id/nav_SettingsFragment"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Настройки" />
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.achivmentoflife.ui.home.HomeFragment"
+        android:label="Задачи"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.achivmentoflife.ui.gallery.GalleryFragment"
+        android:label="Кадендарь"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.achivmentoflife.ui.slideshow.SlideshowFragment"
+        android:label="Информация"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_achivment"
+        android:name="com.example.achivmentoflife.nav_achivment"
+        android:label="Достяжения"
+        tools:layout="@layout/fragment_nav_achivment" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.achivmentoflife.nav_help"
+        android:label="Помощь"
+        tools:layout="@layout/fragment_nav_help" />
+    <fragment
+        android:id="@+id/nav_SettingsFragment"
+        android:name="com.example.achivmentoflife.Nav_SettingsFragment"
+        android:label="Настройки" />
+</navigation>
